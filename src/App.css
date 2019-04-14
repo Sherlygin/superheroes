@@ -1,0 +1,125 @@
+.App{
+	width: 320px;
+	height: 568px;
+	margin: 10px auto;
+	background: linear-gradient(180deg, #31333B 13.26%, #363945 74.59%, #2B2D35 100%)
+}
+
+.list-my-heros{
+	background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), linear-gradient(180deg, #555761 -51.19%, #2B2D35 100%);
+	width: 320px;
+	height: 168px;
+	display: flex;
+	overflow: scroll;
+}
+
+.card{
+	width: 64px;
+	height: 100px;
+	border-radius: 8px;
+	margin: 8px;
+	
+}
+
+.list-heros{
+	width: 320px;
+	height: 304px;
+	display: flex;
+	flex-wrap: wrap;
+	overflow: scroll;
+	
+}
+
+.card-wrap{
+	position: relative;
+	width: 74px;
+	margin: 2px;
+	display: flex;
+	flex-direction: column;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: normal;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+input.delete {
+	position: absolute;
+	padding: 2px;
+	background: url(img/Vector.png) no-repeat top;
+	width: 24px;
+	height: 24px;
+	right: 0px;
+	top: 0px;
+	border: 2px solid #FFFFFF;
+	box-sizing: border-box;
+	/* background: #000000; */
+
+
+}
+
+.form {
+	position:relative;
+	width: 300px
+}
+
+.search input {
+	/* position: relative; */
+	width: 288px;
+	height: 56px;
+	/* padding-left: 14px; */
+	left: 16px;
+	right: 0px;
+	top: 16px;
+	bottom: 26px;
+	background: #4B4E5C;
+	border-radius: 8px;
+	border: none;
+	color: white;
+	margin: 16px
+}
+
+/* .search button {
+	position: absolute;
+	height: 26px;
+  width: 26px;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: #F15B42;
+  cursor: pointer;
+} */
+
+.universe {
+	width: 320px;
+	height: 96px;
+	left: 0px;
+	top: 472px;
+	background: #31333D
+}
+
+input.dc {
+	position: relative;
+	background: url(img/dc-logo.png) no-repeat top;
+	width: 120px;
+	height: 75px;
+	left: 28px;
+	top: 14px;
+	border: none;
+}
+
+input.marvel {
+	position: relative;
+	background: url(img/Marvel.png) no-repeat top;
+	width: 111px;
+	height: 50px;
+	left: 50px;
+	/* top: 24px;  */
+	border: none
+}
+
+@media screen and (max-width: 767px) {
+
+}
